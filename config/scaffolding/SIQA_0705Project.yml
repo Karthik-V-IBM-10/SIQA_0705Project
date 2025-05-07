@@ -166,6 +166,10 @@ services:
   packages:
   - name: WmPublic
     version: 11.1.0.0.2053
+- serviceName: pub.flow:debugLog
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2053
 - serviceName: project.siqa_0705.integrations:refdaf
   packages:
   - name: SIQA_0705Project
