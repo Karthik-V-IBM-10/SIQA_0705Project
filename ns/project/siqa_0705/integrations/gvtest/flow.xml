@@ -5,7 +5,7 @@
 
   <!-- nodes -->
 
-<INVOKE NAME="GlobalVariable" SERVICE="pub.globalVariable:getGlobalVariable" DISABLED="true">
+<INVOKE NAME="GlobalVariable" SERVICE="pub.globalVariable:getGlobalVariable">
   <COMMENT></COMMENT>
 
   <!-- nodes -->
@@ -79,7 +79,7 @@
   <DATA ENCODING="XMLValues" I18N="true">
 
 <Values version="2.0">
-  <value name="xml">GV1</value>
+  <value name="xml">GV2</value>
 </Values>
 </DATA>
 </MAPSET>
@@ -90,7 +90,7 @@
 </MAP>
 </INVOKE>
 
-<INVOKE NAME="Flow" SERVICE="pub.flow:debugLog">
+<INVOKE NAME="Flow" SERVICE="pub.flow:debugLog" DISABLED="true">
   <COMMENT></COMMENT>
 
   <!-- nodes -->
