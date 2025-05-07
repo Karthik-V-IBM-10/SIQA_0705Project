@@ -5,7 +5,7 @@
 
   <!-- nodes -->
 
-<INVOKE NAME="GlobalVariable" SERVICE="pub.globalVariable:getGlobalVariable" DISABLED="true">
+<INVOKE NAME="GlobalVariable" SERVICE="pub.globalVariable:getGlobalVariable">
   <COMMENT></COMMENT>
 
   <!-- nodes -->
@@ -90,7 +90,7 @@
 </MAP>
 </INVOKE>
 
-<INVOKE NAME="Flow" SERVICE="pub.flow:debugLog">
+<INVOKE NAME="Flow" SERVICE="pub.flow:debugLog" DISABLED="true">
   <COMMENT></COMMENT>
 
   <!-- nodes -->
