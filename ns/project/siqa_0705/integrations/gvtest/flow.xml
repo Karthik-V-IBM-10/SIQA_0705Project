@@ -5,7 +5,7 @@
 
   <!-- nodes -->
 
-<INVOKE NAME="GlobalVariable" SERVICE="pub.globalVariable:getGlobalVariable">
+<INVOKE NAME="GlobalVariable" SERVICE="pub.globalVariable:getGlobalVariable" DISABLED="true">
   <COMMENT></COMMENT>
 
   <!-- nodes -->
