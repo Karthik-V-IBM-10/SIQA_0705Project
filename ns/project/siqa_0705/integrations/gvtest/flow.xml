@@ -5,7 +5,7 @@
 
   <!-- nodes -->
 
-<INVOKE NAME="GlobalVariable" SERVICE="pub.globalVariable:getGlobalVariable">
+<INVOKE NAME="GlobalVariable" SERVICE="pub.globalVariable:getGlobalVariable" DISABLED="true">
   <COMMENT></COMMENT>
 
   <!-- nodes -->
@@ -90,7 +90,7 @@
 </MAP>
 </INVOKE>
 
-<INVOKE NAME="Flow" SERVICE="pub.flow:debugLog" DISABLED="true">
+<INVOKE NAME="Flow" SERVICE="pub.flow:debugLog">
   <COMMENT></COMMENT>
 
   <!-- nodes -->
@@ -182,7 +182,7 @@
 
   <!-- nodes -->
 
-<MAPSET NAME="Setter" OVERWRITE="true" VARIABLES="true" GLOBALVARIABLES="false" FIELD="/message;1;0">
+<MAPSET NAME="Setter" OVERWRITE="true" VARIABLES="false" GLOBALVARIABLES="false" FIELD="/message;1;0">
   <DATA ENCODING="XMLValues" I18N="true">
 
 <Values version="2.0">
